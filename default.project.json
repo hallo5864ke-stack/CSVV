@@ -1,0 +1,36 @@
+{
+	"name": "RussianDrivingSimulator",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"DrivingSim": {
+				"$path": "src/shared"
+			}
+		},
+		"ServerScriptService": {
+			"DrivingSim": {
+				"$path": "src/server"
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"DrivingSim": {
+					"$path": "src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$properties": {
+				"Gravity": 35.035714
+			}
+		},
+		"Lighting": {
+			"$properties": {
+				"Technology": "Future",
+				"ClockTime": 14,
+				"Brightness": 2.5,
+				"GlobalShadows": true
+			}
+		}
+	}
+}
